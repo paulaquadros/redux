@@ -15,7 +15,7 @@ export default function ListagemProdutos(){
                     </tr>
                 </thead>
                 <tbody>
-                    {produto.produtos.map((produto) => {
+                    {produto.produtos.map((produto: any) => {
                         return (
                             <tr>
                                 <th>{produto.nome}</th>
